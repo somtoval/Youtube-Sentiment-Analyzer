@@ -1,7 +1,0 @@
-tensorflow
-keras
-google-api-python-client
-pandas
-seaborn
-gunicorn
-flask
