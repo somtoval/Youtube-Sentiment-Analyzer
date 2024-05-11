@@ -4,3 +4,6 @@ pandas
 seaborn
 gunicorn
 flask
+keras
+tensorflow
+dotenv
