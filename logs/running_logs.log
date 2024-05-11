@@ -1,0 +1,16 @@
+[2023-11-02 09:29:16,001: INFO: main: >>>>>> stage Data Validation stage started <<<<<<<<<<]
+[2023-11-02 09:29:16,002: ERROR: main: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "c:\Users\user\My ML Projects\Wine-Quality-Prediciton\main.py", line 21, in <module>
+    data_validation.main()
+  File "c:\users\user\my ml projects\wine-quality-prediciton\src\mlProject\pipeline\stage_02_data_validation.py", line 12, in main
+    config = ConfigurationManager()
+  File "c:\users\user\my ml projects\wine-quality-prediciton\src\mlProject\config\configuration.py", line 12, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\user\My ML Projects\Wine-Quality-Prediciton\venv\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\users\user\my ml projects\wine-quality-prediciton\src\mlProject\utils\common.py", line 36, in read_yaml
+    raise e
+  File "c:\users\user\my ml projects\wine-quality-prediciton\src\mlProject\utils\common.py", line 29, in read_yaml
+    with open(path_to_yaml) as yaml_file: # Opeining the yaml file
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'

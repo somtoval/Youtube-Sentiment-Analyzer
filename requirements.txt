@@ -1,0 +1,4 @@
+tensorflow
+google-api-python-client
+pandas
+seaborn
