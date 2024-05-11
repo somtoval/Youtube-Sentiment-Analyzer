@@ -4,5 +4,4 @@ pandas
 seaborn
 gunicorn
 flask
-keras
 tensorflow
