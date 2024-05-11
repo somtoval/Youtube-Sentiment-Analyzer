@@ -1,6 +1,5 @@
 from flask import Flask, request, request, render_template
 from app.predict import predict_sentiments
-from hello.my import myfunc
 from youtube import get_video_comments
 from flask_cors import CORS
 import requests
